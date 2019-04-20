@@ -104,7 +104,11 @@ git clone https://github.com/openfaas-incubator/ofc-bootstrap
 
 * Download the latest binary release from GitHub
 
-Download [ofc-boostrap](https://github.com/openfaas-incubator/ofc-bootstrap/releases) from the GitHub releases page and move it to `/usr/local/bin/`. You may also need to run `chmod +x /usr/local/bin/ofc-bootstrap`.
+- On Linux:
+Download [ofc-bootstrap](https://github.com/openfaas-incubator/ofc-bootstrap/releases) from the GitHub releases page and move it to `/usr/local/bin/`. You may also need to run `chmod +x /usr/local/bin/ofc-bootstrap`.
+
+- On Mac:
+Download [ofc-bootstrap-darwin](https://github.com/openfaas-incubator/ofc-bootstrap/releases) from the GitHub releases page and move it to `cp ~/Downloads/ofc-bootstrap-darwin $GOPATH/github.com/openfaas-incubator/ofc-bootstrap`. You may also need to run `chmod +x $GOPATH/github.com/openfaas-incubator/ofc-bootstrap`.
 
 ### Create your own `init.yaml`
 
